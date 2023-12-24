@@ -11,9 +11,9 @@ const App = () => {
       <Navbar />
       <div className="container mt-3">
         <Routes>
-        <Route path="/" exact component={App} />
-        <Route path="/calculator" component={Calculator} />
-        <Route path="/quote" component={Quote} />
+        <Route path="/" exact component={<App/>} />
+        <Route path="/calculator" component={<Calculator/>} />
+        <Route path="/quote" component={<Quote/>} />
       </Routes>
       </div>
     </Router>
